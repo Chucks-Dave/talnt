@@ -60,9 +60,7 @@ const Navbar = () => {
           className="lg:hidden absolute right-3 top-0 bottom-0 flex items-center" // Adjusted for correct placement
           onClick={handleClick}
         >
-          <div className="lg:hidden">
-            {active ? <CancelIcon /> : <Hamburger />}
-          </div>
+          {active ? <CancelIcon /> : <Hamburger />}
         </div>
       </nav>
       {active && (
