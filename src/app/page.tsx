@@ -104,7 +104,7 @@ type props = {
   value?: string;
 };
 
-export const CustomInput = ({ placeholder, label, type, value }: props) => {
+const CustomInput = ({ placeholder, label, type, value }: props) => {
   return (
     <>
       <div className="flex flex-col gap-2">
