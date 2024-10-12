@@ -67,7 +67,7 @@ export default function Home() {
         <div className="lg:pt-14 max-md:pt-10 flex flex-col gap-8">
           <Link
             href="/bootcamp"
-            className="w-[200px] bg-bluelight h-[60px] rounded-[35px]"
+            className="w-[200px] bg-bluelight h-[60px] flex items-center justify-center rounded-[35px]"
           >
             <span className="flex flex-row items-center gap-3 font-bold text-[14px] leading-[17.64px] justify-center text-white ">
               Continue <Arrow />
