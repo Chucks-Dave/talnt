@@ -101,8 +101,7 @@ type props = {
   placeholder: string;
   label: string;
   type?: string;
-  value?: string | number;
-  // onChange?: any;
+  value?: string;
 };
 
 export const CustomInput = ({ placeholder, label, type, value }: props) => {
@@ -117,7 +116,6 @@ export const CustomInput = ({ placeholder, label, type, value }: props) => {
           placeholder={placeholder}
           value={value}
           type={type}
-          // onChange={onChange}
         />
         <div className="relative bottom-3">
           <div className="absolute bottom-4 right-3">
