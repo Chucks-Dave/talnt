@@ -34,7 +34,7 @@ export default function Home() {
   return (
     <div className="flex overflow-y-hidden max-md:overflow-hidden">
       <div
-        className="w-1/2  bg-cover inset-0 -z-10 h-screen max-md:hidden "
+        className="w-1/2  bg-cover h-scrren inset-0 -z-10 h-screen max-md:hidden "
         style={{ backgroundImage: Images[index].bgImage }}
       >
         <AnimatePresence>
@@ -45,7 +45,7 @@ export default function Home() {
             exit={{ opacity: 0 }}
             transition={{ duration: 1.0 }}
             className=""
-            // style={{ backgroundImage: `url(${Images[index]})` }}
+            style={{ backgroundImage: `url(${Images[index]})` }}
           />
         </AnimatePresence>
       </div>
