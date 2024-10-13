@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import SearchIcon from "../icons/SearchIcon";
 import Link from "next/link";
 import DropIcon from "../icons/DropIcon";
 import SurfaceIcon from "../icons/SurfaceIcon";
-import CancelIcon from "../icons/CancelIcon";
-import Hamburger from "../icons/Hamburger";
+// import CancelIcon from "../icons/CancelIcon";
+// import Hamburger from "../icons/Hamburger";
 
 const Navbar = () => {
   // const [active, setActive] = useState(false);
@@ -63,9 +63,9 @@ const Navbar = () => {
           {active ? <CancelIcon /> : <Hamburger />}
         </div> */}
       </nav>
-      {active && (
+      {/* {active && (
         <div className="lg:hidden w-full bg-black py-2 absolute">kaka</div>
-      )}
+      )} */}
     </>
   );
 };
