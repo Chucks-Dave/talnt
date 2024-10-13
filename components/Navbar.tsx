@@ -7,11 +7,11 @@ import CancelIcon from "../icons/CancelIcon";
 import Hamburger from "../icons/Hamburger";
 
 const Navbar = () => {
-  const [active, setActive] = useState(false);
+  // const [active, setActive] = useState(false);
 
-  const handleClick = () => {
-    setActive(!active);
-  };
+  // const handleClick = () => {
+  //   setActive(!active);
+  // };
   return (
     <>
       <nav className="w-full justify-between flex drop-shadow-xl  bg-white py-4 rounded-br-[12px] rounded-bl-[12px] px-5 relative">
@@ -56,12 +56,12 @@ const Navbar = () => {
           </button>
         </div>
 
-        <div
+        {/* <div
           className="lg:hidden absolute right-3 top-0 bottom-0 flex items-center"
           onClick={handleClick}
         >
           {active ? <CancelIcon /> : <Hamburger />}
-        </div>
+        </div> */}
       </nav>
       {active && (
         <div className="lg:hidden w-full bg-black py-2 absolute">kaka</div>
